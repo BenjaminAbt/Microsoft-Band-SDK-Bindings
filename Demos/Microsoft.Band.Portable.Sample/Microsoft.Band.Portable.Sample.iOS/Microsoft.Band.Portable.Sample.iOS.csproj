@@ -114,12 +114,12 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Band.iOS">
-      <HintPath>..\packages\Xamarin.Microsoft.Band.Native.1.3.9\lib\XamariniOS\Microsoft.Band.iOS.dll</HintPath>
+    <Reference Include="Microsoft.Band.iOS, Version=1.3.20419.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Microsoft.Band.Native.1.3.10.1\lib\XamariniOS\Microsoft.Band.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Band.Portable">
-      <HintPath>..\packages\Xamarin.Microsoft.Band.1.3.9\lib\XamariniOS\Microsoft.Band.Portable.dll</HintPath>
+    <Reference Include="Microsoft.Band.Portable, Version=1.3.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Microsoft.Band.1.3.10.1\lib\XamariniOS\Microsoft.Band.Portable.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Plugin.LocalNotifications">
